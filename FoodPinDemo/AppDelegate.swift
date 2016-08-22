@@ -17,6 +17,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
         
+        // 导航条更改为白色
+        UIApplication.sharedApplication().statusBarStyle = UIStatusBarStyle.LightContent
+        
         UINavigationBar.appearance().barTintColor = UIColor(red: 242/255, green: 116/255, blue: 119/255, alpha: 1)
         UINavigationBar.appearance().tintColor = UIColor.whiteColor()
         
