@@ -26,7 +26,7 @@ class DetailTableViewController: UITableViewController {
         title = restaurant.name
         tableView.backgroundColor = UIColor(white: 0.98, alpha: 1)
         tableView.tableFooterView = UIView(frame: CGRectZero)
-        tableView.separatorColor = UIColor(white: 0.9, alpha: 1)
+        tableView.separatorColor  = UIColor(white: 0.9, alpha: 1)
         
         // UITableView行高估计
         tableView.estimatedRowHeight = 36

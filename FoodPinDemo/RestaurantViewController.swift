@@ -12,16 +12,15 @@ class RestaurantViewController: UIViewController {
 
     var restaurant : Restaurant!
     
-    
     var restaurantPicture = NSString()
     var restaurantName = NSString()
     var restaurantAddress = NSString()
     var restaurantType = NSString()
     
     @IBOutlet weak var restaurantImageView: UIImageView!
-    @IBOutlet weak var nameLabel: UILabel!
-    @IBOutlet weak var addressLabel: UILabel!
-    @IBOutlet weak var typeLabel: UILabel!
+    @IBOutlet weak var nameLabel          : UILabel!
+    @IBOutlet weak var addressLabel       : UILabel!
+    @IBOutlet weak var typeLabel          : UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,9 +28,9 @@ class RestaurantViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         restaurantImageView.image = UIImage(named: restaurant.image)
-        nameLabel.text = restaurant.name
-        addressLabel.text = restaurant.location
-        typeLabel.text = restaurant.type
+        nameLabel.text            = restaurant.name
+        addressLabel.text         = restaurant.location
+        typeLabel.text            = restaurant.type
     }
 
     override func didReceiveMemoryWarning() {

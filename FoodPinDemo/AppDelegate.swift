@@ -22,7 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         // 导航栏背景颜色
         UINavigationBar.appearance().barTintColor = UIColor(red: 242/255, green: 116/255, blue: 119/255, alpha: 1)
-        UINavigationBar.appearance().tintColor = UIColor.whiteColor()
+        UINavigationBar.appearance().tintColor    = UIColor.whiteColor()
         
         // 导航栏字体
         if let barFont = UIFont(name: "Avenir-Light", size: 24.0) {
